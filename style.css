@@ -1,0 +1,39 @@
+body{
+    h1{
+        color: brown;
+        text-align: center;
+        border: 6px solid palevioletred ;
+        cursor: pointer;
+        box-shadow: 4px 4px 5px 5.5px #888888; /* this is used for shadowing the text of h1 */
+    }
+    img {
+        width: 450px;
+        height: 300px;
+        margin: 10px;
+        transform-origin: left top;
+        transition: transform 1s;
+   }
+    img:hover
+     {
+        transform: scale(1.1);
+        /* transform: rotate(720deg); */
+        transform: translate(-10px, 20px);
+        
+     }
+    
+    footer{
+        clear: both;
+    }
+    p{
+        color: burlywood;
+    }
+    a{
+       color: rgb(138, 132, 132);
+    }
+    background-image: url(https://images.unsplash.com/photo-1711560217845-2333455669a0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
